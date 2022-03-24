@@ -10,11 +10,13 @@
 <body>
     
 <!--My Photo with some key pointers-->
-    <header id="heading">
-            <img id="profilePicture"
-            src="./Images/sAllanaSmall.jpg"
-            alt="Sumayya">
+        <picture>
+            <source media="max-width:600px" srcset="images/sAllanaSmall.jpg">
+            <source media="max-width:1000px" srcset="images/sAllanaMed.jpg">
+            <img id="profilePicture" src="./Images/sAllanaLarge.jpg" alt="Sumayya">
+        </picture>
     
+    <header id="heading">
         <h1>Sumayya Allana</h1>
                  <ul id="intro"> 
                     <li>Aspiring Software Developer.</li>
