@@ -7,6 +7,11 @@ section{
   display: flex;
 }
 
+body {
+  background-image: url(../images/cute-abstract-background-in-pastel-colors-vector.jpg);
+  background-size: cover;
+}
+
 /* My Header and Picture Styling*/
 header {
   text-align: center;
@@ -37,12 +42,6 @@ text-align:left;
 list-style-type: none;
 }
 
-/* !!!!!!my background image wont show!!!!!!!!*/
-main{
-  background-image: url(/images/puzzling.jpeg);
-  background-position: center;
-  background-size: 100%;
-}
 
 /* Horizontal Navigational Menu Styling*/
 menu {
