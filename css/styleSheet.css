@@ -17,8 +17,6 @@ header {
   text-align: center;
   padding: 0%;
   border-color: whitesmoke;
-  border-radius: 0%;
-  border-style:dashed;
   border-width: 0.2em;
   font-size: 0.8vw;
 }
@@ -28,8 +26,11 @@ header {
   float: right;
   margin-top: 1em;
   margin-right: 1em;
+  max-width: 100%;
+  height: auto;
 }
 h1{
+  padding-top: 3em;
   font-size: 3vw;
   font-family: sans-serif;
   text-align: left;
