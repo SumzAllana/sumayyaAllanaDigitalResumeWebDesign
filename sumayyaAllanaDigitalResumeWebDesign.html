@@ -9,11 +9,11 @@
 
 <body>
     
-<!--Picture Element is unresponsive - not sure why -->
+<!--Picture Element responsive Image-->
         <picture>
-            <source media="min-width:650px" srcset="images/sAllanaLarge.jpg">
-            <source media="min-width:465px" srcset="images/sAllanaMed.jpg">
-            <img id="profilePicture" src="./Images/sAllanaSmall.jpg" alt="Sumayya">
+            <source srcset="./images/sAllanaSmall.jpg" media="(max-width:600px)">
+            <source srcset="./images/sAllanaMed.jpg" media="(max-width:1100px)">
+            <img id="profilePicture" src="./images/sAllanaLarge.jpg" alt="A photo of Sumayya"
         </picture>
     
     <header id="heading">
