@@ -11,6 +11,7 @@ a {
   color: navy;
 }
 
+
 /* My Header and Picture Styling*/
 header {
   text-align: center;
@@ -27,7 +28,10 @@ header {
   margin-right: 1em;
   max-width: 100%;
   height: auto;
+  padding-bottom: 2vw;
 }
+
+
 h1{
   padding-top: 3em;
   font-size: 3vw;
@@ -44,6 +48,18 @@ list-style-type: none;
 
 
 /* Horizontal Navigational Menu Styling*/
+menu {
+  list-style-type: none;
+  font-size: 2vw;
+  width: 100%;
+  display:flex;
+  justify-content: space-between;
+  background-color: gainsboro;
+  margin-top: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-right: 7%;
+}
 
 
 /*Personal Information Styling*/
@@ -116,6 +132,10 @@ footer  {
 
 /*Layout of the page*/
 
+section {
+  display: flex;
+}
+
 @media screen and (max-width:500px) {
   section {
     display: block;
@@ -167,10 +187,4 @@ footer  {
 
   #content {
     margin-left: 5%;
-}
-
-@media all and (min-width:900px) {
-  menu {
-    list-style-type: none;
-  }
 }
