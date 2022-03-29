@@ -7,86 +7,9 @@ body {
   background-size: cover;
 }
 
-/*Layout of the page*/
-
-@media screen and (max-width:500px) {
-  section {
-    display: block;
-  }
-  
-  menu {
-    list-style-type: none;
-    font-size: 2vw;
-    width: 95%;
-    display: flex;
-    justify-content: space-between;
-    background-color: gainsboro;
-    margin-top: 1%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-right: 5%;
-  }
-
-  #sidebar {
-    margin-left: 5%;
-  }
-
-  #content {
-    margin-left: 5%;
-  }
+a {
+  color: navy;
 }
-
-@media screen and (max-width:1080px) {
-  section {
-    display: block;
-  }
-  
-  menu {
-    list-style-type: none;
-    font-size: 2vw;
-    width: 100%;
-    display:flex;
-    justify-content: space-between;
-    background-color: gainsboro;
-    margin-top: 1%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-right: 7%;
-  }
-
-  #sidebar {
-    margin-left: 5%;
-  }
-
-  #content {
-    margin-left: 5%;
-}
-
-@media screen  and (min-width: 1080px) {
-  section{
-    display: flex;
-  }
-
-  menu {
-    list-style-type: none;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    font-size: 2.5vw;
-    padding-right: 12%;
-    padding-left: 8%;
-    background-color: gainsboro;
-    margin-top: 1%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-  }
-  a {
-    color: navy;
-  }
-}
-
-
-
 
 /* My Header and Picture Styling*/
 header {
@@ -188,4 +111,66 @@ footer  {
   border-radius: 100%;
   width: 15vw ;
   margin-bottom: 1.5%;
+}
+
+
+/*Layout of the page*/
+
+@media screen and (max-width:500px) {
+  section {
+    display: block;
+  }
+  
+  menu {
+    list-style-type: none;
+    font-size: 2vw;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    background-color: gainsboro;
+    margin-top: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 5%;
+  }
+
+  #sidebar {
+    margin-left: 5%;
+  }
+
+  #content {
+    margin-left: 5%;
+  }
+}
+
+@media screen and (max-width:900px) {
+  section {
+    display: block;
+  }
+  
+  menu {
+    list-style-type: none;
+    font-size: 2vw;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    background-color: gainsboro;
+    margin-top: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 7%;
+  }
+
+  #sidebar {
+    margin-left: 5%;
+  }
+
+  #content {
+    margin-left: 5%;
+}
+
+@media all and (min-width:900px) {
+  menu {
+    list-style-type: none;
+  }
 }
