@@ -52,13 +52,13 @@ menu {
   list-style-type: none;
   font-size: 2vw;
   width: 100%;
-  display:flex;
-  justify-content: space-between;
+  display:grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  text-align: center;
   background-color: gainsboro;
   margin-top: 1%;
   padding-top: 1%;
   padding-bottom: 1%;
-  padding-right: 7%;
 }
 
 
@@ -68,8 +68,11 @@ menu {
   padding-right: 3%;
   color:navy;
   font-size: 1.3vw;
-  display: flex;
   flex-direction: column;
+  display: grid;
+  grid-gap:1vw;
+  height: 100vh;
+  font-size: 1.5vw;
 }
 
 #sidebar li {
@@ -85,6 +88,13 @@ menu {
 #interests {
   padding-left: 0%;
 }
+
+#skills {
+  margin-left: 0%;
+  padding-left: 0%;
+}
+
+
 
 /*Education and Experience Styling*/
 #content {
@@ -104,10 +114,6 @@ h2{
   padding-left: 0%;
 }
 
-#skills {
-  margin-left: 0%;
-  padding-left: 0%;
-}
 #content  {
   display:flex;
   flex-direction: column;
@@ -138,7 +144,7 @@ section {
 
 @media screen and (max-width:500px) {
   section {
-    display: block;
+    display:inline-block;
   }
   
   menu {
@@ -164,9 +170,6 @@ section {
 }
 
 @media screen and (max-width:900px) {
-  section {
-    display: block;
-  }
   
   menu {
     list-style-type: none;
@@ -187,4 +190,15 @@ section {
 
   #content {
     margin-left: 5%;
+  }
+
+  #sidebar {
+    display: block;
+    height: fit-content;
+  }
+
+  
+
 }
+
+
