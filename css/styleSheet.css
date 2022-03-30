@@ -75,12 +75,7 @@ menu {
   list-style-type: none;
   width: 50vw;
 }
-#sidebar h2 {
-  margin-left: 10%;
-}
-#contactInfo {
-  font-weight: bold;
-}
+
 #interests {
   padding-left: 0%;
 }
@@ -90,11 +85,6 @@ menu {
   padding-left: 0%;
 }
 
-#contactInfo {
-  display: block;
-  width: fit-content;
-  align-items: flex-start;
-}
 
 /*Education and Experience Styling*/
 #content {
