@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/images/blurredLines.jpeg) !important;
+    background-size:cover;
+    background-color: transparent !important;
+  }
+
+#cssLogo {
+    padding-top: 1% !important;
+    width: 80% !important;
+    width:80% !important;
+}
+
+header {
+    color: floralwhite;
+}
+
+footer {
+    background-color: grey !important;
+}
+
+@keyframes LogoAnimation {
+    0% {
+        transform: rotateY(45deg);
+        transform:translateX(100);
+    }
+    25%{
+        transform: rotateY(-90deg);
+    }
+    50%{
+        transform: rotate(90deg);
+    }
+    75%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(270deg);
+        transform:translateX(0);
+        
+    }
+}
+
+#msOfficeLogo:hover {
+    animation-name: LogoAnimation;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+#adobeLogo:hover {
+    animation-name: LogoAnimation;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+#githubLogo:hover {
+    animation-name: LogoAnimation;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+#bootstrapLogo:hover {
+    animation-name: LogoAnimation;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+#htmlLogo:hover {
+    animation-name: LogoAnimation;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+#cssLogo:hover {
+    animation-name: LogoAnimation;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+
+
+article {
+    color: aliceblue;
+}
+
+#skillsHeading {
+    text-align: center;
+    color: aliceblue;
+}
+
+aside {
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+.card {
+    background-color: transparent;
+    border-color: transparent;
+}
+.card-title {
+    color: white;
+    text-align: center;
+}
+
+.skills {
+    align-self: center;
+}
+
+.content {
+    font-size: 1.5em;
+}

@@ -1,8 +1,0 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
-    background-image: url(/images/puzzleBackground.jpg) !important;
-    background-size: cover !important;
-  }

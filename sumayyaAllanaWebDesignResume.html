@@ -6,31 +6,53 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/css/resume10.css">
+  <link rel="stylesheet" href="/css/sumayyaAllanaWebDesignResume.css">
 </head>
 
-<body>
-    <nav class="navbar navbar-light bg-light">
+<body class="bg-transparent">
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="./images/initialsLogo.png" alt="SA" width="40" height="35" class="navBarImage">
             Sumayya Allana
           </a>
+          
+          <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
+           
+              <li><a class="nav-link" href="#education">Education</a></li>
+              <li><a class="nav-link" href="#experience">Experience</a></li>
+              <li><a class="nav-link" href="#skills">Skills</a></li>
+
+              <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+          </li>
+      </ul>
+  </div>
+
         </div>
     </nav>
 
     <header>
-        <div class="jumbotron text-center headerStyling " style="margin-bottom:0">
-            <h1><br>Sumayya Allana Bootstrap Resume</h1>
+        <div class="jumbotron text-center bg-dark headerStyling  " style="margin-bottom:0">
+            <h1><br>Sumayya Allana<br> Bootstrap Resume</h1>
             <p>Aspiring Software Developer</p> 
           </div>
     </header>
 
-    <article class="pl-sm-5 pt-sm-4 content">
+    <article class="pl-sm-4 content">
+      <div class="container">
+        <div class="row">
+        <div class="col-sm-8 pt-sm-4">
         <h2 class="fs-1"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-book-half" viewBox="0 0 16 16">
           <path d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
         </svg></h2>
-        <h5>Education</h5>
+        <h5 id="education">Education</h5>
         <h3>National Senior Certificate</h3>
                   <p>2010-2011</p>
                   <p><a href="https://www.abbotts.co.za/johannesburg-south?utm_source=GMB&utm_medium=organic">Abbotts College</a> Johannesburg</p>
@@ -57,16 +79,14 @@
                   <a href="https://www.codespace.co.za/" target="_blank"
                       >Codespace Academy</a>
                   <p>Completed 2022</p>
+        </div>  
 
-
-
-
-              
-        <h2 class="pt-sm-4 "><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-person-workspace" viewBox="0 0 16 16">
+        <div class="col-sm-4 pb-sm-5 mb-5">   
+        <h2 class=" pt-sm-4 "><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-person-workspace" viewBox="0 0 16 16">
           <path d="M4 16s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H4Zm4-5.95a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/>
           <path d="M2 1a2 2 0 0 0-2 2v9.5A1.5 1.5 0 0 0 1.5 14h.653a5.373 5.373 0 0 1 1.066-2H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v9h-2.219c.554.654.89 1.373 1.066 2h.653a1.5 1.5 0 0 0 1.5-1.5V3a2 2 0 0 0-2-2H2Z"/>
         </svg></h2>
-        <h5>Experience</h5>
+        <h5 id="experience">Experience</h5>
         <h3>
           Junior Manager at
           <a href="https://toplineboreholes.co.za/" target="_blank">
@@ -83,30 +103,85 @@
           <li>Cloud Data Management</li>
           <li>Company Correspondence</li>
           </ul>
+        </div>
+        </div>
       </article>
-  
+  </div>
+
+  <h1 id="skillsHeading" id="skills"> Skills</h1>
+  <aside  class="skills pt-sm-5">
+  <div class="card-deck w-50 h-50">
+    <div class="card">
+      <img class="card-img-top img-fluid" id="msOfficeLogo" src="./images/microsoft-office_icon.png"  alt="msOffice">
+      <div class="card-body">
+        <h5 class="card-title">Microsoft Office</h5>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top img-fluid" id="adobeLogo" src="./images/adobe-reader-icon-.png" alt="adobeProLogo">
+      <div class="card-body">
+        <h5 class="card-title">Adobe Pro</h5>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top img-fluid"  id="githubLogo" src="./images/GithubLogo.png" alt="githubLogo">
+      <div class="card-body">
+        <h5 class="card-title">Github</h5>
+      </div>
     </div>
   </div>
 
-
-
-
-
-    
-
-
-
-
-
-
+</div>
+<div class="card-deck  w-50 h-50">
+  <div class="card">
+    <img class="card-img-top img-fluid" id="bootstrapLogo" src="./images/bootstrap-icon-css-removebg-preview.png" alt="bootstrapLogo">
+    <div class="card-body">
+      <h5 class="card-title">Bootstrap</h5>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top img-fluid " id="htmlLogo" src="./images/html5Icon.png" alt="html5Logo">
+    <div class="card-body">
+      <h5 class="card-title">html5</h5>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top img-fluid" id="cssLogo" src="./images/css3Logo.png" alt="css3Logo">
+    <div class="card-body">
+      <h5 class="card-title">css3</h5>
+    </div>
+  </div>
+</div>
+  </div>
+</aside>
 
 </body>
 
 <footer>
 
-
-
-
+<div class="container pt-sm-4 pb-sm-5 d-flex p-2 flex-column align-content-stretch">
+  <div class="row">
+    <div class="col-sm-8 text-center form">
+      <form action="info.php" method="post">
+        <h1>Get In Touch</h1>
+          <div class="row-sm-3">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Name" id="name" name="name" required pattern="[a-z A-Z]">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Email" type="email" id="email" name="email" required inputmode="email>
+            </div>
+            </div>
+            <div class="row-sm-9">
+              <div class="col">
+              <input type="text" class="form-control" placeholder="Message">
+              </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    </div>
+  </div>
+</div>
 </footer>
 
 <!-- JS, Popper.js, and jQuery -->
