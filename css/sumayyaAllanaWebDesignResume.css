@@ -1,3 +1,5 @@
+
+/*body Styling*/
 * {
     box-sizing: border-box;
 }
@@ -8,24 +10,8 @@ body {
     background-color: transparent !important;
   }
 
-#cssLogo {
-    padding-top: 1% !important;
-    width: 80% !important;
-    width:80% !important;
-}
 
-a {
-    color: orange;
-}
-
-header {
-    color: floralwhite;
-}
-
-footer {
-    background-color: grey !important;
-}
-
+/* animation Styling*/
 @keyframes LogoAnimation {
     0% {
         transform: rotateY(45deg);
@@ -90,6 +76,12 @@ footer {
 }
 
 
+/*content Styling*/
+
+header {
+    color: floralwhite;
+    font-size: 2em;
+}
 
 article {
     color: aliceblue;
@@ -121,4 +113,21 @@ aside {
 
 .content {
     font-size: 1.5em;
+}
+
+#cssLogo {
+    padding-top: 1% !important;
+    width: 80% !important;
+    width:80% !important;
+}
+
+a {
+    color: orange;
+}
+
+/*footer form Styling*/
+
+footer {
+    background-color: grey !important
+
 }
