@@ -18,6 +18,7 @@ body {
 #experience {
     text-decoration: underline;
 }
+
 #contactInfo {
     text-decoration: underline;
 }
@@ -80,14 +81,15 @@ a {
     width: 30%;
 }
 
+/*contact information modal animation*/
 @keyframes iconAnimation {
     0% {
-        transform:scaleX(0.9);
+        transform: scaleX(0.9);
         transform: scaleY(0.9);
     }
 
     100% {
-        transform:scaleX(1);
+        transform: scaleX(1);
         transform: scaleY(1);
     }
 }
@@ -175,11 +177,6 @@ a {
     animation-iteration-count: infinite;
 }
 
-
-
-
-
-
 /*footer form Styling*/
 
 footer {
@@ -187,4 +184,3 @@ footer {
     flex-wrap: wrap;
     background-color: grey !important;
 }
-
