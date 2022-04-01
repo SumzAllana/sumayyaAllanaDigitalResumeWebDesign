@@ -1,5 +1,12 @@
-.fakeimg {
-    height: 200px;
-    background: #4c4c;
-    box-shadow: 2px 2px 0px #666666;
-}
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    background-image: url(../images/cute-abstract-background-in-pastel-colors-vector.jpg) !important;
+    background-size: cover;
+  }
+
+  footer {
+background-color: bisque;
+  }
