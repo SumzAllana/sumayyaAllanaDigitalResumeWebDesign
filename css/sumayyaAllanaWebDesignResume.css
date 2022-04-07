@@ -32,7 +32,7 @@ article {
     color: aliceblue;
 }
 
-#skillsHeading {
+.skillsHeading {
     text-align: center;
     color: aliceblue;
 }
@@ -67,17 +67,13 @@ aside {
     font-size: 1.5em;
 }
 
-.img-fluid {
-    height: 10vw;
-    width: 10vw;
-}
-
 
 #cssLogo {
-    padding-top: 1% !important;
-    width: 80% !important;
-    width: 80% !important;
+    width: 95% !important;
+    width: 120% !important;
 }
+
+
 
 a {
     color: orange;
@@ -89,6 +85,10 @@ a {
 
 .modal-title {
     color: black;
+}
+
+div .row-sm-3 {
+    width: 600px;
 }
 
 
@@ -111,13 +111,6 @@ a {
     animation-direction: alternate;
     animation-iteration-count: infinite;
 
-}
-
-#emailIcon {
-    animation-name: iconAnimation;
-    animation-duration: 0.2s;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
 }
 
 /*Skills animation Styling*/
@@ -192,7 +185,6 @@ a {
 /*footer form Styling*/
 
 footer {
-    display: flex;
-    flex-wrap: wrap;
+
     background-color: grey !important;
 }
