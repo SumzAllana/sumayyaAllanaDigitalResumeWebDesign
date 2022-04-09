@@ -50,7 +50,12 @@ article {
 
 .content {
     font-size: 1.5vw;
-    padding: 5% !important;
+    padding-left: 10% !important;
+    padding-bottom: 8%;
+}
+
+#experience {
+    padding-left: 2%;
 }
 
 #cssLogo {
@@ -60,6 +65,12 @@ article {
 
 a {
     color: orange;
+}
+
+nav li {
+    font-size: 1.5vw;
+    padding-right: 3vw;
+
 }
 
 /*Skills animation Styling*/
@@ -280,14 +291,19 @@ form {
         display: block;
     }
 
+    #experienceHeading {
+        font-size: 4.5vw;
+    }
+
+    nav li {
+        font-size: 3vw;
+    }
 }
 
-@media only screen and (min-width:100px) {
-    nav {
-        font-size: 1.5vw !important;
+@media only screen and (max-width:1500px) {
+    nav li {
+        font-size: 2vw;
+        padding-right: 2vw;
     }
-
-    nav div li {
-        margin-right: 2vw;
-    }
+    
 }
