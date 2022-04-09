@@ -9,8 +9,6 @@ body {
     background-color: transparent !important;
 }
 
-
-
 /*content Styling*/
 
 h1 {
@@ -65,14 +63,6 @@ a {
 }
 
 /*Skills animation Styling*/
-
-.cardImage {
-
-}
-
-#githubLogo {
-    
-}
 
 @keyframes LogoAnimation {
     0% {
@@ -144,7 +134,7 @@ a {
 /*contact information modal animation*/
 
 #contactMe {
-    padding:2%
+    padding: 2%
 }
 
 aside {
@@ -166,8 +156,7 @@ form {
 }
 
 #contactIcon {
-    padding: 1% !important;  
-    margin-bottom: 5%;
+    padding: 1% !important;
     margin-top: 2%;
 }
 
@@ -177,6 +166,14 @@ form {
 
 .modal-title {
     color: black;
+}
+
+#contactMeClick {
+    color: aliceblue;
+    text-align: center;
+    padding-bottom: 5%;
+    margin-top: 0%;
+    padding-top: 0%;
 }
 
 
@@ -256,7 +253,7 @@ form {
     }
 
     #contactMe {
-        font-size: 5vw ;
+        font-size: 5vw;
     }
 
     #getInTouch {
@@ -271,9 +268,9 @@ form {
     }
 
     .row {
-        display: block !important;
+        display: flex;
+        flex-direction: column;
     }
-
 
     h5 {
         font-size: 0.5vw;
@@ -282,6 +279,7 @@ form {
     .card-deck {
         display: block;
     }
+
 }
 
 @media only screen and (min-width:100px) {
