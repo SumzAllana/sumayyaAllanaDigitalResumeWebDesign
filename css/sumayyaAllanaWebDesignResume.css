@@ -25,7 +25,7 @@ body {
 
 header {
     color: floralwhite;
-    font-size: 2em;
+    font-size: 2vw;
 }
 
 article {
@@ -51,29 +51,26 @@ aside {
 .card-title {
     color: white;
     text-align: center;
-    font-size: 1em;
 }
 
 .skills {
     align-self: center;
 }
 
-#skillsHeading {
+.skillsHeading {
     text-decoration: overline;
     text-decoration-style: dotted;
 }
 
 .content {
-    font-size: 1.5em;
+    font-size: 1.5vw;
+    padding: 5% !important;
 }
-
 
 #cssLogo {
     width: 95% !important;
     width: 120% !important;
 }
-
-
 
 a {
     color: orange;
@@ -92,7 +89,25 @@ div .row-sm-3 {
 }
 
 
+
 /*contact information modal animation*/
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+#phoneModal {
+    padding: 5% !important;  
+}
+
+#emailModal {
+    padding: 5%;
+}
+
 @keyframes iconAnimation {
     0% {
         transform: scaleX(0.9);
@@ -112,6 +127,9 @@ div .row-sm-3 {
     animation-iteration-count: infinite;
 
 }
+
+
+
 
 /*Skills animation Styling*/
 @keyframes LogoAnimation {
@@ -185,6 +203,91 @@ div .row-sm-3 {
 /*footer form Styling*/
 
 footer {
-
     background-color: grey !important;
+}
+
+/*Responsive Design*/
+
+@media only screen and (max-width:570px) {
+    #contentOverride {
+        font-size: 4vw;
+    }
+
+    
+
+    .row {
+        display: block !important;
+    }
+
+    h5 {
+        font-size: 0.5vw;
+    }
+
+    .card-deck {
+        display: block;
+    }
+
+    .formOverride {
+        display: block
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    #contentOverride {
+        font-size: 4.5vw;
+        padding-left: 10%;
+    }
+
+    .row {
+        display: block !important;
+    }
+
+
+    h5 {
+        font-size: 0.5vw;
+    }
+
+    .card-deck {
+        display: block;
+    }
+}
+
+
+
+@media only screen and (max-width:800px) {
+    #contentOverride {
+        font-size: 4vw;
+    }
+
+    .row {
+        display: block !important;
+    }
+
+    h5 {
+        font-size: 0.5vw;
+    }
+
+    .card-deck {
+        display: block;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    #contentOverride {
+        font-size: 4.5vw;
+        padding-left: 10%;
+    }
+
+    .row {
+        display: block !important;
+    }
+
+
+    h5 {
+        font-size: 0.5vw;
+    }
+
+    .card-deck {
+        display: block;
+    }
 }
