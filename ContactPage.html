@@ -10,7 +10,7 @@
   <title>Sumayya Allana Bootstrap Resume</title>
 </head>
 
-<!--body background Color-->
+<!--override bootstrap body background color-->
   <body class="bg-transparent">
 
 <!--navigation bar-->
@@ -39,8 +39,7 @@
         </div>
     </header>
 
-<!--contact me section-->
-
+<!--contact me image-->
     <main class="container-fluid">
       <article>
       <div class="text-center">
@@ -48,10 +47,11 @@
           <picture>
             <source media="(max-width: 650px)" srcset="images/contactMeSmall.png">
             <source media="(max-width: 1000px)" srcset="images/contactMeMed.jpg">
-            <img src="images/contactMeLrg.jpg" width="60%" height="40%" class="" alt="Contact Me">
+            <img src="images/contactMeLrg.jpg" width="40%" height="30%" class="" alt="Contact Me">
           </picture>
       </div>
 
+<!--corousel-->
       <div class="container-fluid pt-sm-4 pb-sm-5 d-flex flex-column align-items-center text-center">
         <div class="carousel" data-ride="carousel">
           <div class="carousel-inner">
@@ -63,7 +63,8 @@
             </div>
           </div>
         </div>
-    
+
+<!--contact me form-->
         <form action="info.php" method="post">
           <h1 id="getInTouch">Get In Touch</h1>
                 <input type="text" class="form-control" placeholder="Name" id="name" name="name" required pattern="[a-z A-Z]">
@@ -107,7 +108,7 @@
     </main>
 </body>
 
-<!--footer background-->
+<!--footer image-->
 <footer>
   <img src="/images/footerBackground01.jpg" width="100%" class="img-fluid">
 </footer>
