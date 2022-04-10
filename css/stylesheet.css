@@ -170,6 +170,7 @@ form {
     margin-top: 2%;
 }
 
+
 .modal-body {
     color: black;
 }
@@ -268,6 +269,10 @@ form {
 
     #getInTouch {
         font-size: 5vw;
+    }
+
+    nav li {
+        font-size: 2vw;
     }
 }
 
