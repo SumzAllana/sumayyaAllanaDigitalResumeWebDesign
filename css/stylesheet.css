@@ -58,10 +58,19 @@ article {
     padding-left: 2%;
 }
 
+
+#javascriptLogo {
+    margin-top: 0% !important;
+    height: 70% !important;
+    width: 90% !important;
+    padding-top: -3%;
+}
+
 #cssLogo {
     width: 95% !important;
     width: 120% !important;
 }
+
 
 a {
     color: orange;
@@ -100,14 +109,14 @@ nav li {
     }
 }
 
-#msOfficeLogo:hover {
+#canvaLogo:hover {
     animation-name: LogoAnimation;
     animation-duration: 3s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
 }
 
-#adobeLogo:hover {
+#javascriptLogo:hover {
     animation-name: LogoAnimation;
     animation-duration: 3s;
     animation-direction: alternate;
@@ -145,7 +154,8 @@ nav li {
 /*contact information styling*/
 
 #contactMe {
-    padding: 2%
+    padding: 2%;
+    padding-top: 6%;
 }
 
 aside {
@@ -187,6 +197,19 @@ form {
     padding-top: 0%;
 }
 
+#contactContainer {
+    text-align: center;
+    font-weight: 10em;
+    font-size: 3vw;
+    padding: 5%;
+}
+
+.hiddenJSmessage {
+    padding: 5vw;
+    text-decoration: none;
+    text-emphasis: none;
+
+}
 
 /*contact me icon animation and modal*/
 @keyframes iconAnimation {
